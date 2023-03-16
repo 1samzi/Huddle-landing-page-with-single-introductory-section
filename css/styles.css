@@ -1,0 +1,112 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Violet: hsl(257, 40%, 49%)
+- Soft Magenta: hsl(300, 69%, 71%)
+
+## Typography
+
+### Headings
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 400, 600
+
+### Body
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400
+
+## Icons
+
+For the social icons, you can use a font icon library. Some suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com/)
+- [IcoMoon](https://icomoon.io/)
+- [Ionicons](https://ionicons.com/) */
+
+body{
+    background-image: url(images/bg-desktop.svg);
+    background-color:hsl(257, 40%, 49%);  
+    text-align: left;
+}
+header{
+    display: block;
+    padding: 3% 7%;
+    margin-bottom: 3%;
+    
+}
+.logo{
+    width: 15%;
+}
+
+
+/* Web Image Side */
+.web-img{       
+    
+    width: 75%;
+}
+.left-body{
+    text-align: center;
+}
+.row{
+    width: 100%;
+}
+
+/* Text section */
+
+#title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: white;
+    width: 55%;
+    line-height: 4rem;
+    
+}
+.sub-text{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    width: 55%;
+    font-size: 100%;
+}
+
+@media(max-width:990px){
+    body{
+        text-align: center;
+    }
+    #title{
+        margin-top: 5%;
+        line-height: 3.5rem;
+        display: inline-block;
+        width: 75%;
+    }
+    .sub-text{
+        display: inline-block;
+        width: 75%;
+    }
+    .logo{
+        width: 35%;
+    }
+  
+}
+
+/* Attribution section  */
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    padding-top: 5%;
+ }
+.attribution a { 
+   
+    color: white;
+}
